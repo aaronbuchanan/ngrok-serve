@@ -24,6 +24,6 @@
   "homepage": "https://github.com/jamen/ngrok-http#readme",
   "dependencies": {
     "mime": "^1.3.4",
-    "ngrok": "^0.2.2"
+    "ngrok": "~0.1.8"
   }
 }
