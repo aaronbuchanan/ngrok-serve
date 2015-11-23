@@ -1,6 +1,6 @@
 {
   "name": "ngrok-serve",
-  "version": "1.1.4",
+  "version": "1.0.0",
   "description": "Serve a directory on HTTP alongside a ngrok tunnel.",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamen/ngrok-http.git"
+    "url": "git+https://github.com/jamen/ngrok-serve.git"
   },
   "keywords": [
     "http",
@@ -19,9 +19,9 @@
   "author": "Jamen Marz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jamen/ngrok-http/issues"
+    "url": "https://github.com/jamen/ngrok-serve/issues"
   },
-  "homepage": "https://github.com/jamen/ngrok-http#readme",
+  "homepage": "https://github.com/jamen/ngrok-serve#readme",
   "dependencies": {
     "mime": "^1.3.4",
     "ngrok": "~0.1.8"
