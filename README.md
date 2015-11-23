@@ -8,11 +8,6 @@ $ npm install -g ngrok-http
 
 ## Usage
 ```
-$ nh [flags]
+$ nh -d [directory] -p [port]
 ```
-
-### flags
-```
--p [port]: Sets port for ngrok to tunnel (Default: 8080)
--d [path]: Sets directory to Serve (Default: CWD)
-```
+Note: `-d` defaults to your cwd, and `-p` defaults to 8080.
