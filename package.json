@@ -1,0 +1,29 @@
+{
+  "name": "ngrok-http",
+  "version": "0.0.0",
+  "description": "Deploy a HTTP server in your current directory alongside deploying a Ngrok tunnel.",
+  "main": "index.js",
+  "bin": {
+    "nh": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamen/ngrok-http.git"
+  },
+  "keywords": [
+    "http",
+    "ngrok",
+    "secure",
+    "localhost"
+  ],
+  "author": "Jamen Marz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamen/ngrok-http/issues"
+  },
+  "homepage": "https://github.com/jamen/ngrok-http#readme",
+  "dependencies": {
+    "mime": "^1.3.4",
+    "ngrok": "^0.2.2"
+  }
+}
