@@ -8,6 +8,10 @@ $ npm install -g ngrok-http
 
 ## Usage
 ```
-$ nh -d [directory] -p [port]
+$ nh [flags]
 ```
-Note: `-d` defaults to your cwd, and `-p` defaults to 8080.
+
+#### flags
+ - `-p [port]`: Specifies the port for the HTTP server to listen on. (Default `8080`)
+ - `-d [path]`: Specifies the directory to server. (Default: cwd)
+ - `-v`: Verbose output. (Default: `false`)
