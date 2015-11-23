@@ -9,7 +9,8 @@ const http = require('http'),
  */
 
 // Get options, and set to a global var.
-global.opts = lib.opts(process.argv); http
+global.opts = lib.opts(process.argv);
+global.log = lib.log(); http
 
 // Create HTTP server.
 .createServer(lib.request)
