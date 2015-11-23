@@ -1,10 +1,10 @@
 {
-  "name": "ngrok-http",
+  "name": "ngrok-serve",
   "version": "1.1.4",
-  "description": "Deploy a HTTP server in your current directory alongside deploying a Ngrok tunnel.",
+  "description": "Serve a directory on HTTP alongside a ngrok tunnel.",
   "main": "index.js",
   "bin": {
-    "nh": "index.js"
+    "ns": "index.js"
   },
   "repository": {
     "type": "git",
