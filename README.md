@@ -1,14 +1,14 @@
-# ngrok-http
+# ngrok-serve
 Serve a directory and spawn a ngrok process to tunnel it.
 
 ## Install
 ```
-$ npm install -g ngrok-http
+$ npm install -g ngrok-serve
 ```
 
 ## Usage
 ```
-$ nh [flags]
+$ ns [flags]
 ```
 
 #### flags
@@ -18,5 +18,5 @@ $ nh [flags]
 
 #### Example
 ```
-$ nh -p 9000 -d ~/Pictures -v
+$ ns -p 9000 -d ~/Pictures -v
 ```
